@@ -1,0 +1,30 @@
+{
+  "name": "mangoscraper",
+  "version": "1.0.0",
+  "description": "This Node/Express.js site uses Cheerio to scrape the New Yorker.  It stores the scraped data into a MongoDB database using Mongoose.",
+  "main": "routes.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.13.6",
+    "morgan": "^1.9.0",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadoss/MangoScraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jadoss/MangoScraper/issues"
+  },
+  "homepage": "https://github.com/jadoss/MangoScraper#readme"
+}
